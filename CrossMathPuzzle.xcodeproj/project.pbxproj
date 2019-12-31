@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D4D3593221B797E00649985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D3592221B797E00649985 /* AppDelegate.swift */; };
+		7D4D3598221B797E00649985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4D3596221B797E00649985 /* Main.storyboard */; };
+		7D4D359D221B797F00649985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4D359B221B797F00649985 /* LaunchScreen.storyboard */; };
+		7D4D35A8221B797F00649985 /* CrossMathPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D35A7221B797F00649985 /* CrossMathPuzzleTests.swift */; };
+		7D4D35B3221B797F00649985 /* CrossMathPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D35B2221B797F00649985 /* CrossMathPuzzleUITests.swift */; };
+		7D4D35C1221B7D3100649985 /* PuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D35C0221B7D3100649985 /* PuzzleViewController.swift */; };
+		7D4D35C4221B7D5300649985 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D35C3221B7D5300649985 /* StatisticsViewController.swift */; };
+		7D4D35C6221B7D5D00649985 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D35C5221B7D5D00649985 /* OptionsViewController.swift */; };
+		7D4D35C9221B7F7A00649985 /* PuzzleGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D35C8221B7F7A00649985 /* PuzzleGrid.swift */; };
+		7D4D35CB221BF19500649985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4D35CA221BF19500649985 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D4D35A4221B797F00649985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4D3587221B797E00649985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D4D358E221B797E00649985;
+			remoteInfo = CrossMathPuzzle;
+		};
+		7D4D35AF221B797F00649985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4D3587221B797E00649985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D4D358E221B797E00649985;
+			remoteInfo = CrossMathPuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D4D358F221B797E00649985 /* CrossMathPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossMathPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4D3592221B797E00649985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D4D3597221B797E00649985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D4D359C221B797F00649985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D4D359E221B797F00649985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4D35A3221B797F00649985 /* CrossMathPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossMathPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4D35A7221B797F00649985 /* CrossMathPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossMathPuzzleTests.swift; sourceTree = "<group>"; };
+		7D4D35A9221B797F00649985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4D35AE221B797F00649985 /* CrossMathPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossMathPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4D35B2221B797F00649985 /* CrossMathPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossMathPuzzleUITests.swift; sourceTree = "<group>"; };
+		7D4D35B4221B797F00649985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4D35C0221B7D3100649985 /* PuzzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleViewController.swift; sourceTree = "<group>"; };
+		7D4D35C3221B7D5300649985 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		7D4D35C5221B7D5D00649985 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		7D4D35C8221B7F7A00649985 /* PuzzleGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGrid.swift; sourceTree = "<group>"; };
+		7D4D35CA221BF19500649985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D4D358C221B797E00649985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4D35A0221B797F00649985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4D35AB221B797F00649985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D4D3586221B797E00649985 = {
+			isa = PBXGroup;
+			children = (
+				7D4D3591221B797E00649985 /* CrossMathPuzzle */,
+				7D4D35A6221B797F00649985 /* CrossMathPuzzleTests */,
+				7D4D35B1221B797F00649985 /* CrossMathPuzzleUITests */,
+				7D4D3590221B797E00649985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D4D3590221B797E00649985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D4D358F221B797E00649985 /* CrossMathPuzzle.app */,
+				7D4D35A3221B797F00649985 /* CrossMathPuzzleTests.xctest */,
+				7D4D35AE221B797F00649985 /* CrossMathPuzzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D4D3591221B797E00649985 /* CrossMathPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				7D4D35C7221B7F6200649985 /* Model */,
+				7D4D35C2221B7D3700649985 /* View Controllers */,
+				7D4D3592221B797E00649985 /* AppDelegate.swift */,
+				7D4D3596221B797E00649985 /* Main.storyboard */,
+				7D4D359B221B797F00649985 /* LaunchScreen.storyboard */,
+				7D4D359E221B797F00649985 /* Info.plist */,
+				7D4D35CA221BF19500649985 /* Assets.xcassets */,
+			);
+			path = CrossMathPuzzle;
+			sourceTree = "<group>";
+		};
+		7D4D35A6221B797F00649985 /* CrossMathPuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D4D35A7221B797F00649985 /* CrossMathPuzzleTests.swift */,
+				7D4D35A9221B797F00649985 /* Info.plist */,
+			);
+			path = CrossMathPuzzleTests;
+			sourceTree = "<group>";
+		};
+		7D4D35B1221B797F00649985 /* CrossMathPuzzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D4D35B2221B797F00649985 /* CrossMathPuzzleUITests.swift */,
+				7D4D35B4221B797F00649985 /* Info.plist */,
+			);
+			path = CrossMathPuzzleUITests;
+			sourceTree = "<group>";
+		};
+		7D4D35C2221B7D3700649985 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D4D35C0221B7D3100649985 /* PuzzleViewController.swift */,
+				7D4D35C3221B7D5300649985 /* StatisticsViewController.swift */,
+				7D4D35C5221B7D5D00649985 /* OptionsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7D4D35C7221B7F6200649985 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D4D35C8221B7F7A00649985 /* PuzzleGrid.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D4D358E221B797E00649985 /* CrossMathPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4D35B7221B797F00649985 /* Build configuration list for PBXNativeTarget "CrossMathPuzzle" */;
+			buildPhases = (
+				7D4D358B221B797E00649985 /* Sources */,
+				7D4D358C221B797E00649985 /* Frameworks */,
+				7D4D358D221B797E00649985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossMathPuzzle;
+			productName = CrossMathPuzzle;
+			productReference = 7D4D358F221B797E00649985 /* CrossMathPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D4D35A2221B797F00649985 /* CrossMathPuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4D35BA221B797F00649985 /* Build configuration list for PBXNativeTarget "CrossMathPuzzleTests" */;
+			buildPhases = (
+				7D4D359F221B797F00649985 /* Sources */,
+				7D4D35A0221B797F00649985 /* Frameworks */,
+				7D4D35A1221B797F00649985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D4D35A5221B797F00649985 /* PBXTargetDependency */,
+			);
+			name = CrossMathPuzzleTests;
+			productName = CrossMathPuzzleTests;
+			productReference = 7D4D35A3221B797F00649985 /* CrossMathPuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D4D35AD221B797F00649985 /* CrossMathPuzzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4D35BD221B797F00649985 /* Build configuration list for PBXNativeTarget "CrossMathPuzzleUITests" */;
+			buildPhases = (
+				7D4D35AA221B797F00649985 /* Sources */,
+				7D4D35AB221B797F00649985 /* Frameworks */,
+				7D4D35AC221B797F00649985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D4D35B0221B797F00649985 /* PBXTargetDependency */,
+			);
+			name = CrossMathPuzzleUITests;
+			productName = CrossMathPuzzleUITests;
+			productReference = 7D4D35AE221B797F00649985 /* CrossMathPuzzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D4D3587221B797E00649985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Max Q Software LLC";
+				TargetAttributes = {
+					7D4D358E221B797E00649985 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
+					};
+					7D4D35A2221B797F00649985 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
+						TestTargetID = 7D4D358E221B797E00649985;
+					};
+					7D4D35AD221B797F00649985 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
+						TestTargetID = 7D4D358E221B797E00649985;
+					};
+				};
+			};
+			buildConfigurationList = 7D4D358A221B797E00649985 /* Build configuration list for PBXProject "CrossMathPuzzle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D4D3586221B797E00649985;
+			productRefGroup = 7D4D3590221B797E00649985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D4D358E221B797E00649985 /* CrossMathPuzzle */,
+				7D4D35A2221B797F00649985 /* CrossMathPuzzleTests */,
+				7D4D35AD221B797F00649985 /* CrossMathPuzzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D4D358D221B797E00649985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4D359D221B797F00649985 /* LaunchScreen.storyboard in Resources */,
+				7D4D35CB221BF19500649985 /* Assets.xcassets in Resources */,
+				7D4D3598221B797E00649985 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4D35A1221B797F00649985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4D35AC221B797F00649985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D4D358B221B797E00649985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4D35C9221B7F7A00649985 /* PuzzleGrid.swift in Sources */,
+				7D4D35C1221B7D3100649985 /* PuzzleViewController.swift in Sources */,
+				7D4D3593221B797E00649985 /* AppDelegate.swift in Sources */,
+				7D4D35C4221B7D5300649985 /* StatisticsViewController.swift in Sources */,
+				7D4D35C6221B7D5D00649985 /* OptionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4D359F221B797F00649985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4D35A8221B797F00649985 /* CrossMathPuzzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4D35AA221B797F00649985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4D35B3221B797F00649985 /* CrossMathPuzzleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D4D35A5221B797F00649985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D4D358E221B797E00649985 /* CrossMathPuzzle */;
+			targetProxy = 7D4D35A4221B797F00649985 /* PBXContainerItemProxy */;
+		};
+		7D4D35B0221B797F00649985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D4D358E221B797E00649985 /* CrossMathPuzzle */;
+			targetProxy = 7D4D35AF221B797F00649985 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D4D3596221B797E00649985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4D3597221B797E00649985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D4D359B221B797F00649985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4D359C221B797F00649985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D4D35B5221B797F00649985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D4D35B6221B797F00649985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D4D35B8221B797F00649985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V74XQ3CF3T;
+				INFOPLIST_FILE = CrossMathPuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MaxQ.CrossMathPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D4D35B9221B797F00649985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V74XQ3CF3T;
+				INFOPLIST_FILE = CrossMathPuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MaxQ.CrossMathPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D4D35BB221B797F00649985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V74XQ3CF3T;
+				INFOPLIST_FILE = CrossMathPuzzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MaxQ.CrossMathPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossMathPuzzle.app/CrossMathPuzzle";
+			};
+			name = Debug;
+		};
+		7D4D35BC221B797F00649985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V74XQ3CF3T;
+				INFOPLIST_FILE = CrossMathPuzzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MaxQ.CrossMathPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossMathPuzzle.app/CrossMathPuzzle";
+			};
+			name = Release;
+		};
+		7D4D35BE221B797F00649985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V74XQ3CF3T;
+				INFOPLIST_FILE = CrossMathPuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MaxQ.CrossMathPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossMathPuzzle;
+			};
+			name = Debug;
+		};
+		7D4D35BF221B797F00649985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V74XQ3CF3T;
+				INFOPLIST_FILE = CrossMathPuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MaxQ.CrossMathPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossMathPuzzle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D4D358A221B797E00649985 /* Build configuration list for PBXProject "CrossMathPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4D35B5221B797F00649985 /* Debug */,
+				7D4D35B6221B797F00649985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4D35B7221B797F00649985 /* Build configuration list for PBXNativeTarget "CrossMathPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4D35B8221B797F00649985 /* Debug */,
+				7D4D35B9221B797F00649985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4D35BA221B797F00649985 /* Build configuration list for PBXNativeTarget "CrossMathPuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4D35BB221B797F00649985 /* Debug */,
+				7D4D35BC221B797F00649985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4D35BD221B797F00649985 /* Build configuration list for PBXNativeTarget "CrossMathPuzzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4D35BE221B797F00649985 /* Debug */,
+				7D4D35BF221B797F00649985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D4D3587221B797E00649985 /* Project object */;
+}
